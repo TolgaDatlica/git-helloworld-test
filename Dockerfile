@@ -4,7 +4,7 @@ FROM nginx:stable-alpine
 # Copy HTML into Nginx default directory
 COPY ./html /usr/share/nginx/html
 
-# Expose port 9090
-EXPOSE 9090
+# Expose port 80
+EXPOSE 80
 
 # Nginx runs automatically via entrypoint
