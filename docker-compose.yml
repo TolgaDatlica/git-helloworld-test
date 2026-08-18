@@ -6,7 +6,7 @@ services:
     container_name: hello-world-web
     restart: always
     ports:
-      - "80:9090"
+      - "9091:9090"
     networks:
       - webnet
 
